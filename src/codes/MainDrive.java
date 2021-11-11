@@ -103,7 +103,6 @@ public class MainDrive {
 				
 				int randomNum = (int) (Math.random() * 45 + 1);
 				
-				System.out.println("랜덤 숫자 : "  + randomNum);
 				
 				
 //				중복 검사 진행
@@ -127,6 +126,9 @@ public class MainDrive {
 				
 //				중복검사 결과 활용
 				if (isDuplOk) {
+
+//					당첨 번호도 확인해야, 몇등인지 확인 가능.
+					System.out.println("랜덤 숫자 : "  + randomNum);
 					
 //					제대로 랜덤 추출 -> 당첨번호로 사용.
 					winLottoNumbers[i] = randomNum;
